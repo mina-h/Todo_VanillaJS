@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist/bundle.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <p class="header__title">Register new ToDo</p>
+  </header>
+  <form class="form">
+    <label class="form__title--label" for="title">Title</label>
+    <input class="form__title--input" type="text" id="title"><br>
+    <label class="form__description--label" for="description">Description</label>
+    <input class="form__description--input" type="text" id="description">
+    <button class="add" type="submit">Add</button>
+  </form>
+  <section class="container">
+    <ul class="todo" id="uncompleted"></ul>
+    <ul class="todo" id="completed"></ul>
+  </section>
+  <script src="dist/bundle.js"></script>
+</body>
+</html>
